@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        
         RecyclerView recyclerView=findViewById(R.id.recycler_view_id);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
